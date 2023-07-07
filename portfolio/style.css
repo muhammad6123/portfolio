@@ -35,7 +35,21 @@ nev a{
     color: aliceblue;
     font-size:20px ;
     font-weight: 700;
-    padding: 15px 18px;
+    padding: 15px 35px;
+}
+
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
 }
 
 
@@ -44,10 +58,44 @@ nev a{
     background-color: #fff8f3;
 }
 .bannar{
-    padding:30px 30px 150px ;
+    padding:30px 30px 0px 150px ;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    right: 0px;
+
+}.profile{
+    width: 700px;
+}.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom:0;
+}.bannar-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
-.profile{
-    width: 500px;
+
+.content{
+width: 500px;
+border-radius: 10px;
+background: #fff8f3;
+
+}
+
+
+
+
+
+
+
+
+/* abut section  */
+
+.about{
+    padding: 130px;
+    margin:130px 0px;
+    background: #fff8f3;
+    border-radius: 10px;
 }
