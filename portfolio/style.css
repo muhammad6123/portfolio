@@ -1,0 +1,38 @@
+nev{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    /* font-style: normal; */
+    font-weight: 800;
+    /* line-height: normal; */
+}
+.textt-primary{
+
+    color: coral;
+}
+nev > ul{
+    display: flex;
+    align-items: center;
+}
+nev li{
+   list-style: none;
+   margin-right:50px ;
+}
+nev a{
+    text-decoration: none;
+    color: dimgray;
+}
+.btn{
+    border-radius: 3px;
+    background-color: coral;
+    border: 0px;
+    color: aliceblue;
+    font-size:20px ;
+    font-weight: 700;
+    padding: 15px 18px;
+}
