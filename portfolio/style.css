@@ -85,7 +85,11 @@ background: #fff8f3;
 }
 
 
+men{
+    max-width: 1140px;
+    margin: 0 auto;
 
+}
 
 
 
@@ -98,4 +102,12 @@ background: #fff8f3;
     margin:130px 0px;
     background: #fff8f3;
     border-radius: 10px;
+}
+.about2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.aout-info{
+    text-align:center;
 }
